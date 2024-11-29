@@ -67,8 +67,8 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy Shukla Userbot ✨",
-                            url=f"https://github.com/itzshukla/STRANGER-OPUSERBOT2.0"
+                            "💥 Deploy KSD  Userbot ✨",
+                            url=f"https://github.com/Ksdofficial8/ksd-user-bot-2.0"
                         )
                     ]
                 ]
@@ -78,11 +78,11 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://files.catbox.moe/r58nec.jpg",
-                                title="🥀 Shukla Userbot ✨",
-                                thumb_url=f"https://files.catbox.moe/r58nec.jpg",
-                                description=f"🌷 Deploy Your Own SHUKLAUSERBOT🌿...",
-                                caption=f"<b>🥀 Welcome » To » Shukla 🌷\n✅ Userbot {__version__} ✨...</b>",
+                                photo_url=f"https://files.catbox.moe/yvwrge.jpg"),
+                                title="🥀 KSD Userbot ✨",
+                                thumb_url=f"https://files.catbox.moe/yvwrge.jpg",
+                                description=f"🌷 Deploy Your Own KSDUSERBOT🌿...",
+                                caption=f"<b>🥀 Welcome » To » KSD 🌷\n✅ Userbot {__version__} ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -98,7 +98,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Shukla Userbot❗...\n\nRepo:** <i>https://github.com/itzshukla/STRANGER-OPUSERBOT2.0/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own KSD Userbot❗...\n\nRepo:** <i>https://github.com/Ksdofficial8/ksd-user-bot-2.0</i>||"
                                 ),
                             )
                         )
@@ -111,4 +111,3 @@ def inline_wrapper(func):
            return await func(bot, query)
 
     return wrapper
-
