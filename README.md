@@ -1,7 +1,7 @@
 <p align="center"><a href="https://t.me/KSD_USER_ROBOT"><img src="https://files.catbox.moe/489rkf.jpg" width="400"></a></p>
 </p>
 <h6 align="center">
-  <b>• sᴛʀᴀɴɢᴇʀ ᴜsᴇʀ ʙᴏᴛ •</b>
+  <b>• ᴋsᴅ ᴜsᴇʀ ʙᴏᴛ •</b>
 </h6>
 
 ----
